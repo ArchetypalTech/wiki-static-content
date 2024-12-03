@@ -3,9 +3,13 @@
 1. Sync Markdown content into `content` directory to be consumed by private Wiki Instance.
 2. Markdown can be Frontmatter decorated.
 3. Ensure Repo emits `dispatch.yml` to trigger workflow in order to rebuild site once content updates.
-    * create repo secret: `REPO_PAT` * requires Organisaztion PAT
+    * create repo secret: `REPO_PAT` : `paste in org PAT - github_pat_***`
+      * requires Organisaztion PAT
+      * Read access to metadata
+      * Read & Write to Contents
     * create repo variable: `REPO_OWNER`
     * create repo variable: `REPO_NAME`
+    * create repo variable: `EVENT` and use value: `TRIGGER_BUILD`
 4. Connect workflows with other REPO by having a consuming end:
 *workflow*
 ```
