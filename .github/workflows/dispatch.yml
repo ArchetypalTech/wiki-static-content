@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Trigger Workflow in Another Repository
         run: |
-          event_type="trigger_build"
+          event_type="TRIGGER_BUILD"
           # Make a POST request
           curl -L \
           -X POST \
