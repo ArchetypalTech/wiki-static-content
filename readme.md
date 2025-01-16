@@ -18,6 +18,16 @@ on:
         types:
             - TRIGGER_BUILD
 ```
+### Frontmatter
+Current available fields:
+```
+---
+description: SEO powers for wiki specific page
+published: true # also defaults to true (sets visibility)
+pin: 1111 # will lock page privately behind a hash
+tags: ['blog']
+---
+```
 
 ---
 ## Welcome to Community content
