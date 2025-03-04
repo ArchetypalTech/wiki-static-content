@@ -7,8 +7,7 @@
       * requires Organisaztion PAT
       * Read access to metadata
       * Read & Write to Contents
-    * create repo variable: `REPO_OWNER`
-    * create repo variable: `REPO_NAME`
+    * create repo variable: `REPO`:  `owner/wiki-content--example`
     * create repo variable: `EVENT` and use value: `TRIGGER_BUILD`
 4. Connect workflows with other REPO by having a consuming end:
 *workflow*
