@@ -47,6 +47,7 @@ Report them to the Discord `#wiki-making` channel.
 - Connect repo to Obsidian vault
 
 Strategy for Obsidian
+
 ![](static/obsid-nfo.jpg)
 
 You will want to open the vault at the **root** of the repo.
