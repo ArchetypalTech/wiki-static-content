@@ -15,7 +15,7 @@ https://microsites-dashboard.fly.dev/
 
 Finding a repo can be hard when there's so many. We use this BEM naming convention so we can navigate URLs easily.
 
-`[site-type]-[repo-type]--[project]`
+`[organisation]/[site-type]-[repo-type]--[project]`
 
 - site-type: `wiki | press | site`
 - repo-type: `host | content`
@@ -23,7 +23,7 @@ Finding a repo can be hard when there's so many. We use this BEM naming conventi
 
 > _For this **content** context, you will probably only need to use content type_
 
-`wiki-content--offgrid`
+`semaeopus/wiki-content--offgrid`
 
 ### Content
 
@@ -53,8 +53,8 @@ You will want to open the vault at the **root** of the repo.
 This will contain the following:
 
 ```
-header.png
 readme.md
+static/
 content/
 	attachments/
 	Your Content.md
